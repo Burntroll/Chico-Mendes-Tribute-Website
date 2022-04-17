@@ -68,7 +68,7 @@ header {
     max-height: 100%;
 }
 
-#image-caption {
+#img-caption {
     padding-bottom: 1rem;
 }
 
@@ -112,7 +112,7 @@ header {
     margin-top: 3rem;
 }
 
-.free__time a {
+#tribute-link {
     color: rgb(73, 73, 219);
 }
 
@@ -165,7 +165,7 @@ header {
     margin-bottom: 0.6rem;
 }
 
-#image-caption {
+#img-caption {
     font-size: 14px;
     text-align: center;
 }

@@ -20,16 +20,17 @@ body {
     height: 100%;
     width: 97%;
     margin: 0 auto;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 header {
-    color: rgb(255, 102, 26);
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
 }
 
 #title {
@@ -55,6 +56,7 @@ header {
     flex-direction: column;
     align-items: center;
     margin: 2rem;
+    border-radius: 8px;
 }
 
 #image {
@@ -66,4 +68,46 @@ header {
     max-height: 100%;
 }
 
+/*******************
+*** INFO SECTION ***
+*******************/
 
+#tribute-info {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.info__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#tribute-info p {
+    margin-bottom: 1.5rem;
+}
+
+#tribute-info img {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.free__time {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    font-size: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+.free__time a {
+    color: rgb(73, 73, 219);
+}
